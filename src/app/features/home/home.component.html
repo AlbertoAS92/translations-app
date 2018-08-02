@@ -1,0 +1,17 @@
+<h2>{{ 'HOME.TITLE' | translate }}</h2>
+
+<p>{{ 'APP.TITLE' | translate }}</p>
+
+<p>{{ 'HOME.WITH_PARAMS' | translate: {aNumber: aNumber, aString: aString, aBoolean: aBoolean} }}</p>
+
+<div>
+  <button (click)="onClick($event, 'es_ES')">
+    Español
+  </button>
+  <button (click)="onClick($event, 'en_GB')">
+    English
+  </button>
+  <button (click)="onClick($event, 'pl_PL')">
+    Polski
+  </button>
+</div>

@@ -1,0 +1,11 @@
+{
+  "APP.TITLE": "Título",
+  "NAVIGATION_BAR": {
+    "TITLE": "Barra de navegacion",
+    "FEATURES": "Caracteristicas"
+  },
+  "HOME": {
+    "TITLE": "Modulo de Home",
+    "WITH_PARAMS": "Esto es un texto con parametros - LOS PARAMETROS SON: {{aNumber}}, {{aString}} y {{aBoolean}}"
+  }
+}
